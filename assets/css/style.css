@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+  }
+   
+  .navbar .navbar-nav {
+    
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    background: url('../images/concrete2.png');
+    margin: auto;
+    color: #000000;
+  }
+  
+  .navbar .navbar-collapse {
+    text-align: center;
+    background: url('../images/concrete2.png');
+  }
+  .answerchoice {
+    width: 40%;
+    text-align: center;
+    margin: 10px auto;
+    font-size: 20px;
+  
+  }
+  
+  #answerblock{
+    text-align: center;
+  }
+  
+  #questionblock {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  #reset{
+    visibility: visible;
+  }
+ body{
+      color: red;
+      background:url('../images/apocalypse.jpg');
+      background-size: cover; 
+      border-color: #dddddd;
+      font-size: 20px;
+      line-height: 35px;
+      font-family:'Roboto', sans-serif; 
+      height: 100%;  	
+  }
+  
+ 
+h1 {
+  text-align: center;
+  font-weight: bolder;
+  padding: 20px;
+  font-size: 45px;
+}
+  li {
+      text-align: left;
+      background: url('../images/concrete2.png');
+      color: #000000;
+    }
+img {
+  max-height: 250px;
+  width: auto;
+}
+
+.wrapper {
+  margin: 10px auto;
+  height: 500px;
+  width: 60%;
+  text-align: center;
+}
+.btn {
+  position: relative;
+  bottom: -150px;
+}
