@@ -10,6 +10,7 @@
     background: url('../images/concrete2.png');
     margin: auto;
     color: #000000;
+
   }
   
   .navbar .navbar-collapse {
@@ -44,6 +45,7 @@
       font-size: 20px;
       line-height: 35px;
       font-family:'Roboto', sans-serif; 
+      font-weight: bold;
       height: 100%;  	
   }
   

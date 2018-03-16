@@ -134,7 +134,7 @@ function displayQuestion() {
     //iterate through answer array and display
     $("#questionblock").html("<h2>" + pick.question + "</h2>");
     for(var i = 0; i < pick.choice.length; i++) {
-        var userChoice = $("<button>");
+        var userChoice = $("<button class='btn-lg btn-danger'>");
         userChoice.addClass("answerselect");
         userChoice.html(pick.choice[i]);
         //assign array position to it so can check answer
